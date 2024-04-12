@@ -9,6 +9,7 @@ from app import app
 from models import db, Customer
 
 
+
 fake = Faker()
 
 usernames = [fake.first_name() for i in range(4)]

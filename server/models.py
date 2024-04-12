@@ -10,5 +10,6 @@ class Customer(db.Model, SerializerMixin):
     age = db.Column(db.Integer)
     email = db.Column(db.String, unique=True)
 
+
     def __repr__(self):
         return f'Customer: {self.name}, age: {self.age}, email: {self.email}'
